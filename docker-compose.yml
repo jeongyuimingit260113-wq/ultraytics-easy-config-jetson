@@ -1,0 +1,19 @@
+services:
+  IMAI-LAB:            # 서비스 이름 (원하는 대로 지으세요)
+    image: ${T_UP}         # 맨 뒤에 있던 이미지 이름
+    stdin_open: true       # -i 옵션
+    tty: true              # -t 옵션
+    ipc: host              # --ipc=host 옵션
+    runtime: nvidia        # --runtime=nvidia 옵션
+    working_dir: /usr_creative  # -w /usr_creative 옵션
+    volumes:
+      - ./:/usr_creative   # -v "${PWD}":/usr_creative 옵션 (./ 가 현재 경로입니다)
+
+    # --gpus all 옵션 (최신 표준 방식)
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
