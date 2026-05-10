@@ -15,12 +15,7 @@ fi
 INSTALL_NAME="latest-jetson-jetpack${JETPACK_VER}"
 
 T_UP=ultralytics/ultralytics:$INSTALL_NAME
+echo "T_UP=${T_UP}" > .env
 
 
-sudo docker pull "${T_UP}"
-
-PWD=$(pwd)
-
-
-sudo docker run -it --rm --ipc=host --runtime=nvidia --gpus all -v "${PWD}":/usr_creative -w /usr_creative "${T_UP}"
-
+sudo docker compose run --rm IMAI-LAB
