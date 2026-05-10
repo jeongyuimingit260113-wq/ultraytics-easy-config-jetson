@@ -76,7 +76,8 @@ print(torch.cuda.is_available())
 
 이렇게 뜨면 성공입니다. :<img width="445" height="33" alt="image" src="https://github.com/user-attachments/assets/ddf080ab-9dea-47d2-ad39-570d19f9a303" />
 
-## pycharm 인터프리터 설정 ##
+## 2. pycharm 인터프리터 설정 ##
+
 
 내 컴퓨터의 pycharm 과 jetson 보드의 SSH 설정을 이미 끝났다고 가정하고 시작합니다. 
 
@@ -120,6 +121,24 @@ docker compose 클릭
 <img width="2205" height="332" alt="image" src="https://github.com/user-attachments/assets/552facb1-bc88-48f2-be68-4b76c56946ef" />
 
 이렇게 True 가 뜨는 걸 볼 수 있습니다. 
+
+
+
+## 3. 그 외 기타  ## 
+
+만약 실행중인 docker을 보고 싶다면
+
+````
+docker ps
+
+````
+
+실행을 멈추고 싶다면 
+
+````
+docker stop  #docker name
+
+````
 
 
 
