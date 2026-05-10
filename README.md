@@ -12,7 +12,8 @@
 
 ## 🛠️ 주요 파일 설명
 * **`ultra_jetpack.sh`**: 메인 환경 구성 및 실행 스크립트입니다. Docker 기반의 Ultralytics 환경을 자동으로 세팅하고 실행합니다.
-* **`jetpack_find_run.sh`**: 기존에 생성된 Docker 컨테이너가 중지(`docker stop`)되었거나 기기 재부팅 후, 기존 작업 환경을 다시 불러와 실행할 때 사용하는 복구용 스크립트입니다.
+* **`jetpack_find_run.sh`**: docker container 가 있을 경우를 대비한 예비용 스크립트 입니다.
+* 
 
 ---
 
