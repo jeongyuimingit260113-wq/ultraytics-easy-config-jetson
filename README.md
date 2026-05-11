@@ -76,7 +76,7 @@ print(torch.cuda.is_available())
 
 이렇게 뜨면 성공입니다. :<img width="445" height="33" alt="image" src="https://github.com/user-attachments/assets/ddf080ab-9dea-47d2-ad39-570d19f9a303" />
 
-## 2. pycharm 인터프리터 설정 ##
+## 2. pycharm 인터프리터 설정 (권장 하지 않습니다!)  ##
 
 
 내 컴퓨터의 pycharm 과 jetson 보드의 SSH 설정을 이미 끝났다고 가정하고 시작합니다. 
