@@ -7,13 +7,15 @@
 ## 🎯 시스템 요구 사항 (Requirements)
 * **Hardware:** NVIDIA Jetson board 
 * **OS:** JetPack 환경
+* **huarry-vision-cam-sdk** (저작권 이슈 때문에 올리지 못했습니다.)
 
 ---
 
 ## 🛠️ 주요 파일 설명
 * **`ultra_jetpack.sh`**: 메인 환경 구성 및 실행 스크립트입니다. Docker 기반의 Ultralytics 환경을 자동으로 세팅하고 실행합니다.
 * **`jetpack_find_run.sh`**: docker container 가 있을 경우를 대비한 예비용 스크립트 입니다.
-* **`docker-compose.yml`**: pycharm IDE 인터프리터 빌드용 도커컴포즈 파일입니다. (메인 빌드용입니다)
+* **`docker-compose.yml`**: 메인빌드용 docker compose 파일입니다. (메인 빌드용입니다)
+* **`settings.json`**: vscode 인터프리터 설정용 파일입니다.
 
 ---
 
