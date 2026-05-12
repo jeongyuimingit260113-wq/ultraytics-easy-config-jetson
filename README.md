@@ -64,6 +64,7 @@ sudo su
 
 
 #### 4. 도커 내에서 파이썬 파일 실행 방법
+
 파이썬 파일은 무조건 같은 디렉토리내에서 실행 해주세요. (중요)
 <img width="433" height="192" alt="image" src="https://github.com/user-attachments/assets/33f8cffb-f6a2-4fd7-81db-2b4f4a2c91c9" />
 
@@ -77,6 +78,8 @@ print(torch.cuda.is_available())
 ````
 
 이렇게 뜨면 성공입니다. :<img width="445" height="33" alt="image" src="https://github.com/user-attachments/assets/ddf080ab-9dea-47d2-ad39-570d19f9a303" />
+
+아래는 github 파이썬 예시 결과 입니다. <img width="512" height="165" alt="image" src="https://github.com/user-attachments/assets/bca44820-848d-4c8f-885a-452e866158bb" />
 
 
 
