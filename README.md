@@ -1,6 +1,6 @@
-# 🚀 Ultralytics Easy Config for Jetson  made by IMAI_LAB
+# 🚀 Ultralytics & Irayple camera Easy Config for Jetson  made by IMAI_LAB
 
-**NVIDIA Jetson** 환경에서 복잡한 의존성 설치 과정 없이, 단 하나의 스크립트 실행만으로 **Ultralytics(YOLO 등)**를 즉시 사용할 수 있도록 최적화된 환경을 구축해 주는 프로젝트입니다.
+**NVIDIA Jetson** 환경에서 복잡한 의존성 설치 과정 없이, 단 하나의 스크립트 실행만으로 **Ultralytics(YOLO 등)와 camera sdk**를 즉시 사용할 수 있도록 최적화된 환경을 구축해 주는 프로젝트입니다.
 
 ---
 
