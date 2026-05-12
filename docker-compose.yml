@@ -7,7 +7,23 @@ services:
     runtime: nvidia        # --runtime=nvidia 옵션
     working_dir: /usr_creative  # -w /usr_creative 옵션
     volumes:
-      - ./:/usr_creative   
+      - ./:/usr_creative   # -v "${PWD}":/usr_creative 옵션 (./ 가 현재 경로입니다)
+      - /opt/HuarayTech:/opt/HuarayTech
+      - /dev:/dev                # 2. 하드웨어 장치 노드 공유
+      - /lib/modules:/lib/modules:ro # 3. 호스트 커널 모듈 정보 공유
+
+    network_mode: host     # --network=host 옵션
+    privileged : true          # --privileged 옵션
+
+
+    
+
+    environment:
+      - LD_LIBRARY_PATH=/opt/HuarayTech/MVviewer/lib:/opt/HuarayTech/MVviewer/lib/GenICam/bin:$LD_LIBRARY_PATH
+      - PYTHONPATH=/opt/HuarayTech/MVviewer/share/Python/MVSDK:$PYTHONPATH
+      
+
+      
 
     # --gpus all 옵션 (최신 표준 방식)
     deploy:
