@@ -1,0 +1,12 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "python.analysis.extraPaths": [
+        "/ultralytics",
+        "/opt/HuarayTech/MVviewer/share/Python/MVSDK"
+    ],
+    "python.autoComplete.extraPaths": [
+        "/ultralytics",
+        "/opt/HuarayTech/MVviewer/share/Python/MVSDK"
+    ]
+}
+
