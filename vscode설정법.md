@@ -19,6 +19,15 @@ docker compose up
 
 예시: <img width="603" height="122" alt="image" src="https://github.com/user-attachments/assets/79b22f44-f342-4de6-b646-b49c3bc26dd3" />
 
+
+### docker 권한 설정 ###
+
+````
+
+sudo usermod -aG docker $USER
+
+````
+
 만약 도커를 내리고 싶다면 
 
 ````
