@@ -12,12 +12,21 @@ sudo su
 예시 : <img width="202" height="80" alt="화면 캡처 2026-05-12 151812 - 복사본 (2)" src="https://github.com/user-attachments/assets/c2813caf-ff5f-4208-a1cd-f8f45d683102" />
 
 
+
+
 ### 해당 디렉토리 이동 후 docker 빌드 ### 
 ````
 docker compose up
 ````
 
 예시: <img width="603" height="122" alt="image" src="https://github.com/user-attachments/assets/79b22f44-f342-4de6-b646-b49c3bc26dd3" />
+
+### 도커 이동 후 zmq 설치 ###
+
+````
+pip install zmq
+
+````
 
 
 ### docker 권한 설정 ###
